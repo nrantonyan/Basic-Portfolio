@@ -4,41 +4,41 @@
 	margin: 0 auto;
 	padding: 0;
 }
-@media only screen and (max-width: 1920px) {
-    body {
-        background-image: url("../images/vintage-concrete.png");
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        margin: 0 0 100px;
-        color: #777777;
-    }
+
+body {
+    background-image: url("../images/vintage-concrete.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 0 100px;
+    color: #777777;
 }
+
 a {
 	color: inherit;
 	text-decoration: none;
 }
-.container {
-    margin-right: auto;    
-    margin-left: auto;    
-    width: 70%;    
-    max-width: 100%;    
-    min-width: 1000px;  
-    
+
+.container{
+    background-color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    margin: 0 auto;
+
 }
+
 .header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: white;
-	margin-bottom: 5em;
+    margin-bottom: 5em;
+    background-color: white;
+    width: 960px;
 	overflow: auto;
 }
 .name {
-	margin-left: 25%;
-	float: left;
+    float: left;
+    max-width: 960px;
 	background-color: #4aaaa5;
     color: white;
 }
 .navi {
 	float: right;
-	margin-right: 25%;
 	margin-top: 2em;
 	background-color: transparent;
 	color: #777777;
@@ -116,21 +116,19 @@ h3 {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	height: 100px;
 	width: 100%;
 }
 .divi {
-	clear: both;
+
     color: transparent;
-    margin-top: 2em;
-	width: 100%;
+   margin-bottom: 4em;
 	background-color: #4aaaa5;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
-    height: 60px;
+    position: fixed;
+    bottom: 0;  
     width: 100%;
 	background-color: #666666;
-	color: #777777;
+    color: #777777;
+    overflow: auto;
 }
